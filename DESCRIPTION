@@ -1,0 +1,20 @@
+Package: crRMTL
+Title: Restricted mean time lost (RMTL) analysis under competing risks
+Version: 1.0.1
+Authors@R: 
+  c(person("Hongji", "Wu", email = "15675239623@163.com", role = "aut"),
+    person("Zheng", "Chen", email = "zchen@smu.edu.cn", role = "cre"),
+    person("Yawen", "Hou", role = "ctb"))
+Description: This is used for hypothetical test and sample size estimation based on the difference of RMTL (RMTLd) under competing risks.
+License: GPL-2
+Encoding: UTF-8
+Depends: R (>= 4.0.0)
+Imports: stats,cmprsk,survival
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+NeedsCompilation: no
+Packaged: 2021-08-22 14:47:51 UTC; MECHREVO
+Author: Hongji Wu [aut],
+  Zheng Chen [cre],
+  Yawen Hou [ctb]
+Maintainer: Zheng Chen <zchen@smu.edu.cn>
